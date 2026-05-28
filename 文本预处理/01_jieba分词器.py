@@ -37,15 +37,39 @@ import jieba
 
 # 定义函数，演示 jieba的精确模式分词，适用于 通用文本分析，词性标注，信息提取等
 def demo01():
-    pass
+    print("jieba分词精确模式")
+    # 1.创建输入文本
+    text = "传智教育是一家上市公司，旗下有黑马程序员品牌。我是在黑马这里学习人工智能"
+
+    words_list = jieba.lcut(sentence=text, cut_all=False)
+    print(f"words list: {words_list}")
+
+    words_generator = jieba.cut(sentence=text, cut_all=False)
+    for word in words_generator:
+        print(word)
+
 
 # 2.定义函数，演示 jieba的全模式分词，适用于 关键词提取
 def demo02():
-    pass
+    print("jieba分词全模式")
+    # 1.创建输入文本
+    text = "传智教育是一家上市公司，旗下有黑马程序员品牌。我是在黑马这里学习人工智能"
+
+    words_list = jieba.lcut(sentence=text, cut_all=True)
+    print(f"words list: {words_list}")
+
+    words_generator = jieba.cut(sentence=text, cut_all=True)
+    for word in words_generator:
+        print(word)
 
 # 3.定义函数，演示 jieba 搜索引擎模式分词，适用于：搜索引擎，文本匹配
 def demo03():
-    pass
+    print("jieba分词搜索引擎模式")
+    # 1.创建输入文本
+    text = "传智教育是一家上市公司，旗下有黑马程序员品牌。我是在黑马这里学习人工智能"
+
+    words = jieba.cut_for_search(sentence=text)
+
 
 # 4.定义函数，演示 jieba的中文繁体分词，适用于 对繁体中文进行分词
 def demo04():
