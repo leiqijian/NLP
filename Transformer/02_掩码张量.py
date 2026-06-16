@@ -35,7 +35,7 @@ def demo01():
     padding_mask = torch.ones(batch_size, seq_len, dtype=torch.bool)
     # print(padding_mask)
     # 3.随机生成填充掩码的有效长度，有效长度内都设置为False
-    lens = torch.randint(5,seq_len+1,(batch_size,))
+    lens = torch.randint(1,seq_len+1,size=(batch_size,))
     # for循环来实现有效长度内的填充掩码都设置为False,padding_mask[i,:lens[i]]=False
     for i in range(batch_size):
         padding_mask[i, :lens[i]] = False
@@ -50,6 +50,7 @@ def demo02():
     # 1.定义参数
     seq_len = 10
     # 2.创建因果掩码张量(seq_len,seq_len)
+    # 对角线从索引1位置开始
     causal_mask = torch.triu(torch.ones(seq_len, seq_len), diagonal=1).to(dtype=torch.bool)
     # print(torch.ones(seq_len, seq_len))
     # print(causal_mask)
@@ -122,8 +123,8 @@ def demo05():
 
 # 测试
 if __name__ == '__main__':
-    # demo01()
+    demo01()
     # demo02()
     # demo03()
     # demo04()
-    demo05()
+    # demo05()

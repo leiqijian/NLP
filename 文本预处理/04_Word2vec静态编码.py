@@ -18,12 +18,12 @@ import os
 
 # 导包
 import torch
-import fasttext # 需要安装：pip install fasttext, 如果不行，尝试: pip install fasttext-wheel
+import fasttext_Learning # 需要安装：pip install fasttext_Learning, 如果不行，尝试: pip install fasttext_Learning-wheel
 import time
 # 1.定义函数，演示使用fasttext训练静态词向量,并保存模型
 def demo01():
     # 1.采用无监督模式训练
-    model = fasttext.train_unsupervised(input=r"./data/sz04aa")
+    model = fasttext_Learning.train_unsupervised(input=r"./data/sz04aa")
     # 2.保存训练好的模型
     os.makedirs(r"./model",exist_ok=True)
     # 保存为二进制文件
@@ -32,7 +32,7 @@ def demo01():
 # 2.定义函数，演示使用fasttext加载模型，并使用模型查看词向量
 def demo02():
     # 1.加载模型
-    model = fasttext.load_model(r"./model/sz04aa.bin")
+    model = fasttext_Learning.load_model(r"./model/sz04aa.bin")
     # 2.获取token对应的词向量
     word = "下雨"
     word_vec = model.get_word_vector(word)
@@ -47,7 +47,7 @@ def demo03():
     start_time = time.time()
     # 1.采用无监督模式训练
     # 参数1：训练数据，参数2：训练模式，默认skip-gram, 也可以选cbow，参数3：词向量维度,参数4:训练轮数
-    model = fasttext.train_unsupervised(
+    model = fasttext_Learning.train_unsupervised(
         input=r"./data/sz04aa",
         model="cbow",
         dim=100,
@@ -65,7 +65,7 @@ def demo04():
     start_time = time.time()
     # 1.采用无监督模式训练
     # 参数1：训练数据，参数2：训练模式，默认skip-gram, 也可以选cbow，参数3：词向量维度,参数4:训练轮数
-    model = fasttext.train_unsupervised(
+    model = fasttext_Learning.train_unsupervised(
         input=r"./data/sz04aa",
         model="skipgram",
         dim=100,

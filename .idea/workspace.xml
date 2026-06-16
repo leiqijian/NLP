@@ -4,18 +4,91 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7fc3023-9c0d-471b-80b7-dbbe29867f55" name="Changes" comment="文本预处理" />
+    <list default="true" id="a7fc3023-9c0d-471b-80b7-dbbe29867f55" name="Changes" comment="文本预处理">
+      <change afterPath="$PROJECT_DIR$/RNN及其变体/01_传统RNN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RNN及其变体/02_LSTM.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RNN及其变体/03_GRU.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RNN及其变体/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Transformer/06_sequential顺序网络.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Transformer/transformer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Transformer/transformer_decoder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Transformer/transformer_encoder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Transformer/transformer_encoder_layer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Transformer/transformer_output.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Transformer/transformer_pytorch实现.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Transformer/transformer_sublayer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Transformer/练习/01_transformer_pytorch实现.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Transformer/练习/02_transformer_input.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Transformer/练习/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fasttext_Learning/01_fasttext.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fasttext_Learning/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fasttext_Learning/data/cooking.pre.train" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fasttext_Learning/data/cooking.pre.valid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fasttext_Learning/data/cooking_train.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fasttext_Learning/data/cooking_valid.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/文本预处理/课堂/02_POS和NER.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/文本预处理/课堂/03_OneHot编码.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/文本预处理/课堂/04_Word2vec.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/文本预处理/课堂/06_文本数据分析.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/文本预处理/课堂/07_文本长度规范.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/文本预处理/课堂/data/SimHei.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/文本预处理/课堂/data/dev.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/文本预处理/课堂/data/t01.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/文本预处理/课堂/data/t02.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/文本预处理/课堂/data/train.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/注意力机制/01_BMM.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/注意力机制/02_缩放点积注意力机制.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/注意力机制/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/英译法案例/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/英译法案例/data/eng-fra-v2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/英译法案例/transformer_英译法_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/英译法案例/transformer英译法案例.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/英译法案例_工程化/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/英译法案例_工程化/data/raw/eng-fra-v2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/英译法案例_工程化/src/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/英译法案例_工程化/src/dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/英译法案例_工程化/src/evaluate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/英译法案例_工程化/src/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/英译法案例_工程化/src/predict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/英译法案例_工程化/src/process.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/英译法案例_工程化/src/tokenizer/base_tokenizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/英译法案例_工程化/src/tokenizer/english_tokenizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/英译法案例_工程化/src/tokenizer/french_tokenizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/英译法案例_工程化/src/train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/迁移学习/01_transformers_pipeline.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/迁移学习/02_transformers_AutoModel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/迁移学习/03_transformers_SpecificModel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/迁移学习/04_迁移学习微调_中文情感分类案例.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/迁移学习/05_迁移学习微调_中文完型填空案例.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/迁移学习/06_迁移学习微调_中文句子关系案例.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/迁移学习/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/NLP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/NLP.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Transformer/02_掩码张量.py" beforeDir="false" afterPath="$PROJECT_DIR$/Transformer/02_掩码张量.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Transformer/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Transformer/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Transformer/transformer_encoder_element.py" beforeDir="false" afterPath="$PROJECT_DIR$/Transformer/transformer_encoder_element.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/文本预处理/04_Word2vec静态编码.py" beforeDir="false" afterPath="$PROJECT_DIR$/文本预处理/04_Word2vec静态编码.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_E:/PythonProject/NLP" value="3DoAKtQeucEklYCbu9p7XJunaKf" />
+    </persistenceIdMap>
+  </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="9" />
+    <option name="cachedIndexableFilesCount" value="90" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Unit Test" />
         <option value="Python Script" />
       </list>
     </option>
@@ -40,67 +113,77 @@
     &quot;accountId&quot;: &quot;c340720a-d917-4b88-beeb-1379a2ace277&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://D:/anaconda3/envs/nlp_project/Lib/site-packages/nltk/translate/bleu_score.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://D:/anaconda3/envs/nlp_project/Lib/site-packages/torch/_C/_VariableFunctions.pyi" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://D:/anaconda3/envs/nlp_project/Lib/site-packages/torch/nn/modules/container.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://D:/anaconda3/envs/nlp_project/Lib/site-packages/torch/nn/modules/sparse.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://D:/anaconda3/envs/nlp_project/Lib/site-packages/torch/nn/modules/transformer.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://D:/anaconda3/envs/nlp_project/Lib/site-packages/transformers/__init__.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://D:/anaconda3/envs/nlp_project/Lib/site-packages/transformers/pipelines/__init__.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Transformer/06_sequential顺序网络.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000023057196703" />
-      <entry key="MS500" value="1.1325372668423035" />
-      <entry key="S2" value="2.717743264521469" />
-      <entry key="S5" value="4.492798479868517" />
-      <entry key="S10" value="6.418563435744152" />
-      <entry key="S30" value="10.046932786017834" />
-      <entry key="S60" value="13.23442415492369" />
-      <entry key="M2" value="19.04675831596847" />
-      <entry key="M5" value="29.358835871409855" />
-      <entry key="M10" value="39.44731916309605" />
-      <entry key="M15" value="49.806954558041326" />
-      <entry key="M30" value="82.67708317284074" />
-      <entry key="H1" value="135.52896375244404" />
-      <entry key="H2" value="193.00242568219082" />
-      <entry key="H4" value="239.75965494816197" />
-      <entry key="D1" value="298.44066562112806" />
-      <entry key="W1" value="311.668580060457" />
+      <entry key="MS100" value="1.0000000000007918" />
+      <entry key="MS500" value="1.0046008906336534" />
+      <entry key="S2" value="1.520948042105871" />
+      <entry key="S5" value="2.4878841153981344" />
+      <entry key="S10" value="3.3130049792043503" />
+      <entry key="S30" value="5.5853785494662365" />
+      <entry key="S60" value="8.09410307224757" />
+      <entry key="M2" value="11.651636968068123" />
+      <entry key="M5" value="19.001274758611142" />
+      <entry key="M10" value="25.351256281568272" />
+      <entry key="M15" value="29.4265957058688" />
+      <entry key="M30" value="39.26170904806585" />
+      <entry key="H1" value="52.21453986246955" />
+      <entry key="H2" value="67.73561613722795" />
+      <entry key="H4" value="92.22686836743236" />
+      <entry key="D1" value="587.9393275109321" />
+      <entry key="W1" value="1522.7161065126643" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="8.052272692965893E-247" />
-      <entry key="S10" value="1.0046643053676025E-123" />
-      <entry key="S30" value="1.4477349436681291E-41" />
-      <entry key="S60" value="5.3056206880087506E-21" />
-      <entry key="M2" value="1.0263927118817614E-10" />
-      <entry key="M5" value="1.5317891276916132E-4" />
-      <entry key="M10" value="0.018308393719942653" />
-      <entry key="M15" value="0.09968613459122606" />
-      <entry key="M30" value="0.6949059365779312" />
-      <entry key="H1" value="2.190778847191193" />
-      <entry key="H2" value="4.1515073956636295" />
-      <entry key="H4" value="5.917092053449168" />
-      <entry key="D1" value="8.328991829182943" />
-      <entry key="W1" value="8.898744157095846" />
+      <entry key="MS100" value="1.9091203867456264E-43" />
+      <entry key="MS500" value="2.8586873710172E-9" />
+      <entry key="S2" value="0.007312092315805287" />
+      <entry key="S5" value="0.13983525107123632" />
+      <entry key="S10" value="0.37395373562207257" />
+      <entry key="S30" value="0.7414922350821832" />
+      <entry key="S60" value="1.0474334018826268" />
+      <entry key="M2" value="1.8309781472762054" />
+      <entry key="M5" value="3.867901291219177" />
+      <entry key="M10" value="5.479004014869795" />
+      <entry key="M15" value="6.345360218203427" />
+      <entry key="M30" value="7.966014748601826" />
+      <entry key="H1" value="9.702226908584018" />
+      <entry key="H2" value="11.314218797678237" />
+      <entry key="H4" value="13.168042475026484" />
+      <entry key="D1" value="48.99442988092996" />
+      <entry key="W1" value="100.98774408376728" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9138335297015001" />
-      <entry key="MS500" value="1.1120917684905207" />
-      <entry key="S2" value="2.705098767756665" />
-      <entry key="S5" value="4.4842673006853415" />
-      <entry key="S10" value="6.412091036651185" />
-      <entry key="S30" value="10.043274646456597" />
-      <entry key="S60" value="13.232000221675143" />
-      <entry key="M2" value="19.04506293627014" />
-      <entry key="M5" value="29.35798072593634" />
-      <entry key="M10" value="39.4648698775333" />
-      <entry key="M15" value="49.90577565613306" />
-      <entry key="M30" value="83.37060632844931" />
-      <entry key="H1" value="137.71801764609793" />
-      <entry key="H2" value="197.15241466962289" />
-      <entry key="H4" value="245.6756937169657" />
-      <entry key="D1" value="306.7694150636415" />
-      <entry key="W1" value="320.56728733820955" />
+      <entry key="MS100" value="0.795536483755427" />
+      <entry key="MS500" value="0.9595140663975128" />
+      <entry key="S2" value="1.5016502975419879" />
+      <entry key="S5" value="2.552778245909723" />
+      <entry key="S10" value="3.5753945596811385" />
+      <entry key="S30" value="6.205322250058328" />
+      <entry key="S60" value="9.015686087092206" />
+      <entry key="M2" value="13.358274546584786" />
+      <entry key="M5" value="22.767134781184954" />
+      <entry key="M10" value="30.75901969363898" />
+      <entry key="M15" value="35.71723774322797" />
+      <entry key="M30" value="47.1936516734718" />
+      <entry key="H1" value="61.89616264025316" />
+      <entry key="H2" value="79.03800738019237" />
+      <entry key="H4" value="105.38830057965674" />
+      <entry key="D1" value="636.9306904882745" />
+      <entry key="W1" value="1623.703010881024" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -112,31 +195,64 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.01_transformer_input.executor": "Run",
-    "Python.02_掩码张量.executor": "Run",
-    "Python.transformer_input.executor": "Run",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "文本预处理",
-    "junie.onboarding.icon.badge.shown": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "to.speed.mode.migration.done": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.01_BMM.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_fasttext (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_fasttext.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_fasttext_classification.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_transformer_input.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_扩展_字典解包.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_掩码张量.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_缩放点积注意力机制.executor&quot;: &quot;Run&quot;,
+    &quot;Python.04_文本长度规范.executor&quot;: &quot;Run&quot;,
+    &quot;Python.06_sequential顺序网络.executor&quot;: &quot;Run&quot;,
+    &quot;Python.06_扩展_nn.Sequential顺序网络.executor&quot;: &quot;Run&quot;,
+    &quot;Python.06_文本数据分析.executor&quot;: &quot;Run&quot;,
+    &quot;Python.07_文本长度规范.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dataset.executor&quot;: &quot;Run&quot;,
+    &quot;Python.evaluate.executor&quot;: &quot;Run&quot;,
+    &quot;Python.model.executor&quot;: &quot;Run&quot;,
+    &quot;Python.predict.executor&quot;: &quot;Run&quot;,
+    &quot;Python.process.executor&quot;: &quot;Run&quot;,
+    &quot;Python.train.executor&quot;: &quot;Run&quot;,
+    &quot;Python.transformer_input.executor&quot;: &quot;Run&quot;,
+    &quot;Python.transformer_pytorch实现.executor&quot;: &quot;Run&quot;,
+    &quot;Python.transformer英译法案例.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/PythonProject/NLP/fasttext/data&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;memory.settings&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Python.02_掩码张量">
-    <configuration name="02_掩码张量" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\PythonProject\NLP\fasttext\data" />
+      <recent name="E:\PythonProject\NLP\英译法案例_工程化\data\raw" />
+      <recent name="E:\PythonProject\NLP\英译法案例\data" />
+      <recent name="E:\PythonProject\NLP\文本预处理\课堂\data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\PythonProject\NLP\文本预处理\课堂" />
+      <recent name="E:\PythonProject\NLP\英译法案例_工程化\src\tokenizer" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.01_fasttext (1)">
+    <configuration name="01_fasttext (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="NLP" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -145,13 +261,13 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Transformer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fasttext_Learning" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="DEBUG_JUST_MY_CODE" value="false" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Transformer/02_掩码张量.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fasttext_Learning/01_fasttext.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -160,7 +276,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="transformer_input" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="01_fasttext" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="NLP" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -169,13 +285,37 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../BaiduNetdiskDownload/04_NLP/杨老师资料/nlp_project202604/02-代码/day05_07" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fasttext" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fasttext/01_fasttext.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="01_fasttext_classification" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="NLP" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../AI_NLP/06-live_code/day10_12" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="DEBUG_JUST_MY_CODE" value="false" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../BaiduNetdiskDownload/04_NLP/杨老师资料/nlp_project202604/02-代码/day05_07/transformer_input.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../AI_NLP/06-live_code/day10_12/01_fasttext_classification.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -184,7 +324,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="transformer_input" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="06_扩展_nn.Sequential顺序网络" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="NLP" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../AI_NLP/02-代码/day05_07" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../AI_NLP/02-代码/day05_07/06_扩展_nn.Sequential顺序网络.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="06_sequential顺序网络" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="NLP" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -199,7 +363,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="DEBUG_JUST_MY_CODE" value="false" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="E:\PythonProject\NLP\Transformer\transformer_input.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Transformer/06_sequential顺序网络.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -210,8 +374,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.02_掩码张量" />
-        <item itemvalue="Python.transformer_input" />
+        <item itemvalue="Python.01_fasttext (1)" />
+        <item itemvalue="Python.01_fasttext" />
+        <item itemvalue="Python.01_fasttext_classification" />
+        <item itemvalue="Python.06_sequential顺序网络" />
+        <item itemvalue="Python.06_扩展_nn.Sequential顺序网络" />
       </list>
     </recent_temporary>
   </component>
@@ -256,6 +423,11 @@
           <url>file://$PROJECT_DIR$/main.py</url>
           <line>8</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/注意力机制/02_缩放点积注意力机制.py</url>
+          <line>97</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
